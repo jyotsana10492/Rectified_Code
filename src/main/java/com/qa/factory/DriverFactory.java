@@ -18,7 +18,7 @@ public class DriverFactory
 		 * browser
 		 * 
 		 * @param browser
-		 * @return this will return tldriver.
+		 * @return this will return tldrivers
 		 */
 		public WebDriver init_driver(String browser) 
 			{
