@@ -3,7 +3,10 @@ import java.io.IOException;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
+
+import com.aventstack.extentreports.util.Assert;
 import com.pages.AccountSettings;
 import com.pages.CompanyDetailsPage;
 import com.pages.HomePage;
@@ -80,5 +83,24 @@ public class CompanyTest
 				companyAccount.click_delete_Button();
 				companyAccount.text_Of_Success_Message();
 				companyAccount.successfull_Delete();
-			}
-	}
+				
+				
+			}}
+		/*@Test
+		public void verifyTitlePage()
+		
+		{
+		String title=driver.getTitle();
+		System.out.println("title = "+ title);
+		org.testng.Assert.assertEquals(title, "subsource");
+		
+			
+		}}*/
+			
+			
+			
+			
+			
+			
+			
+		

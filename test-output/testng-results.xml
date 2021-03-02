@@ -1,36 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39953" started-at="2021-02-26T04:48:33Z" finished-at="2021-02-26T04:49:13Z">
+  <suite name="Default suite" duration-ms="40650" started-at="2021-02-26T06:08:23Z" finished-at="2021-02-26T06:09:04Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRun@1b68ddbd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="39953" started-at="2021-02-26T04:48:33Z" finished-at="2021-02-26T04:49:13Z">
+    <test name="Default test" duration-ms="40650" started-at="2021-02-26T06:08:23Z" finished-at="2021-02-26T06:09:04Z">
       <class name="Parallel.ParallelRun">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Parallel.ParallelRun@1b68ddbd]" name="setUpClass" is-config="true" duration-ms="1183" started-at="2021-02-26T04:48:33Z" finished-at="2021-02-26T04:48:34Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Parallel.ParallelRun@1b68ddbd]" name="setUpClass" is-config="true" duration-ms="1120" started-at="2021-02-26T06:08:23Z" finished-at="2021-02-26T06:08:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRun@1b68ddbd]" name="runScenario" duration-ms="30993" started-at="2021-02-26T04:48:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-26T04:49:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check Company deatails"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[To test the Company functionality of Subsource]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRun@1b68ddbd]" name="runScenario" duration-ms="35224" started-at="2021-02-26T04:48:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-26T04:49:10Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRun@1b68ddbd]" name="runScenario" duration-ms="35627" started-at="2021-02-26T06:08:24Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-26T06:09:00Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +30,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Parallel.ParallelRun@1b68ddbd]" name="tearDownClass" is-config="true" duration-ms="3512" started-at="2021-02-26T04:49:10Z" finished-at="2021-02-26T04:49:13Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParallelRun@1b68ddbd]" name="runScenario" duration-ms="30774" started-at="2021-02-26T06:08:24Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-26T06:08:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check Company deatails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To test the Company functionality of Subsource]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Parallel.CompanyTest.user_delete_the_company_from_subsource(CompanyTest.java:86)
+at ✽.user delete the company from subsource(file:///D:/SubSourceV2/SubSource/CodeBase/./src/test/resources/Parallel/Company.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Parallel.ParallelRun@1b68ddbd]" name="tearDownClass" is-config="true" duration-ms="3866" started-at="2021-02-26T06:09:00Z" finished-at="2021-02-26T06:09:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -1,8 +1,8 @@
 {
 	"companydetails": [
 		{
-			"companyname": "Test@1234",
-			"EIN": "245658785",
+			"companyname": "Test89",
+			"EIN": "234567890",
 			"Address": "ZirakPur",
 			"Address2": "Chandigrah",
 			"City": "punjab",
@@ -15,7 +15,7 @@
 	],
 	"shopDetails": [
 		{
-			"shop": "12-020",
+			"shop": "12-030",
 			"email": "bwsxyz@gmail.com",
 			"region": "Central Region",
 			"address1": "ascsa",
